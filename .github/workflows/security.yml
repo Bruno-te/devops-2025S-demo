@@ -32,5 +32,5 @@ jobs:
           fetch-depth: 0
       - name: Gitleaks
         uses: gitleaks/gitleaks-action@v2
-        env: 
-          github_token: ${{secrets.GITHUB_TOKEN}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
